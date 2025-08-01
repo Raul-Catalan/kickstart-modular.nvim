@@ -17,17 +17,17 @@ return {
 
     -- see below for full list of optional dependencies 👇
   },
+  -- Keymaps
+  keys = {
+    { 'n', '<leader>on', '<cmd>ObsidianNew<CR>', desc = 'Create A New Obsidian Note' },
+    { 'n', '<leader>ot', '<cmd>ObsidianToday<CR>', desc = "Open today's note" },
+  },
   opts = {
     workspaces = {
       {
         name = 'secondBrain',
         path = '~/Second-Brain/',
       },
-    },
-    -- Keymaps
-    keys = {
-      { 'n', '<leader>on', '<cmd>ObsidianNew<CR>', desc = 'Create A New Obsidian Note' },
-      { 'n', '<leader>ot', '<cmd>ObsidianToday<CR>', desc = "Open today's note" },
     },
     note_id_func = function(title)
       -- Create note IDs in a Zettelkasten format with a timestamp and a suffix.
