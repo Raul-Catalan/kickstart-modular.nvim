@@ -235,6 +235,12 @@ return {
             },
           },
         },
+
+        -- CUSTOM
+        qmlls = {
+          cmd = { 'qmlls', '-E' },
+        },
+        ts_ls = {},
       }
 
       -- Ensure the servers and tools above are installed
