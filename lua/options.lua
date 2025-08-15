@@ -72,6 +72,6 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- Custom: Adding conceallevel for obsidian.nvim
-vim.o.conceallevel = 2
+-- vim.o.conceallevel = 2
 
 -- vim: ts=2 sts=2 sw=2 et

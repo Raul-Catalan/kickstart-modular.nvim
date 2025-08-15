@@ -241,6 +241,7 @@ return {
           cmd = { 'qmlls', '-E' },
         },
         ts_ls = {},
+        hyprls = {},
       }
 
       -- Ensure the servers and tools above are installed
