@@ -238,7 +238,9 @@ return {
 
         -- CUSTOM
         qmlls = {
-          cmd = { 'qmlls', '-E' },
+          cmd = { 'qmlls' },
+          filetypes = { 'qml', 'qmljs' },
+          root_markers = { '.git' },
         },
         ts_ls = {},
         hyprls = {},

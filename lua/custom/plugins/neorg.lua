@@ -21,6 +21,11 @@ return {
         ['core.esupports.metagen'] = {
           config = {},
         },
+        ['core.qol.todo_items'] = {
+          config = {
+            order = { { 'undone', ' ' }, { 'done', 'x' }, { 'cancelled', '_' } },
+          },
+        },
       },
     }
     vim.wo.foldlevel = 99

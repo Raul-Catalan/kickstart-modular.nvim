@@ -71,7 +71,9 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
--- Custom: Adding conceallevel for obsidian.nvim
--- vim.o.conceallevel = 2
-
+-- Custom:
+-- Change from tab to 2 spaces
+vim.opt.expandtab = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
 -- vim: ts=2 sts=2 sw=2 et
