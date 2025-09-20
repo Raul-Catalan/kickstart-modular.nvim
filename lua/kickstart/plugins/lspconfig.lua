@@ -237,13 +237,13 @@ return {
         },
 
         -- CUSTOM
-        qmlls = {
-          cmd = { 'qmlls' },
-          filetypes = { 'qml', 'qmljs' },
-          root_markers = { '.git' },
-        },
+        -- qmlls = {
+        -- cmd = { 'qmlls' },
+        -- filetypes = { 'qml', 'qmljs' },
+        -- root_markers = { '.git' },
+        -- },
         ts_ls = {},
-        hyprls = {},
+        -- hyprls = {},
       }
 
       -- Ensure the servers and tools above are installed
