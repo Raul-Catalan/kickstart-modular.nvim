@@ -96,7 +96,11 @@ vim.g.have_nerd_font = true
 -- VSCode Neovim
 if vim.g.vscode then
   -- VSCode extension
+  -- [[ Basic Keymaps ]]
   require 'vscode_config.vscode_keymaps'
+
+  -- [[ Setting options ]]
+  require 'vscode_config.vscode_options'
 else
   -- Normal Neovim
   -- [[ Setting options ]]
