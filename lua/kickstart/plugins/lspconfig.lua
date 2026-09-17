@@ -242,7 +242,7 @@ return {
         -- filetypes = { 'qml', 'qmljs' },
         -- root_markers = { '.git' },
         -- },
-        ts_ls = {},
+        -- ts_ls = {},
         -- hyprls = {},
       }
 
